@@ -1,4 +1,4 @@
-# ⚡ Nuclear Energy Production Prediction: Barakah-1
+# ⚡ Industrial Outlier Forecasting & Domain-Injected Modeling: Barakah-1
 
 ## 📌 Project Overview
 This project implements a predictive model to forecast the monthly energy generation (GWh) of the Barakah-1 nuclear reactor (APR-1400) in the United Arab Emirates.
