@@ -1,0 +1,132 @@
+﻿NEAApplication
+none
+
+UnitName1,CountryName
+BARAKAH-1,United Arab Emirates
+
+ReactorName,Model,Operator,Owner
+Operational,APR-1400,Nawah Energy Company,Emirates Nuclear Energy Corporation
+
+TypeCode,operation_time_years
+PWR,5
+
+DesignNetElectricalCapacity,DesignCapacityunit,ConstructionDate,NetElectricalCapacity,NetCapacityUnit,CriticalityDate1,GrossCapacity,GrossCapacityunit,GridDate,ThermalCapacity,ThermalCapacityunit,CommercialDate
+  1 310,MW(e),2012-07-19,  1 337,MW(e),2020-07-31,  1 417,MW(e),2020-08-19,  3 983,MW(e),2021-04-01
+
+ElectricitySupplied,LifeTimeGenunit
+50.2,TWh
+
+Energy_AvailabilityFactor,Operating_Factor,Energy_UnavailabilityFactor,Load_Factor
+77.9 %,83.6 %,22.1 %,78.2 %
+
+PrimarySystemChar,PrimaryCharValue
+Reactor vessel centreline orientation,Vertical
+Fuel material,UO2
+Refuelling type,OFF-line
+Moderator material,H2O
+Average fuel enrichment [% of U235],2.66
+Refuelling frequency [month],18
+Part of the core refuelled [%],33.3
+Average discharge burnup [MWd/t],28914
+Active core diameter [m],3.647
+Active core height/length [m],3.81
+Number of fissile fuel assemblies/bundles,241
+Fuel linear heat generation rate [kW/m],47.572
+Number of control rod assemblies,81
+Number of external reactor coolant loops,2
+Coolant type,H2O
+Operating coolant pressure [MPa],15.513
+Reactor outlet temperature [°C],323.9
+Number of SG,2
+Containment type,Single
+Containment design pressure [MPa],0.414
+
+SecondarySystemChar,SecondaryCharValue
+Number of turbine-generators per unit/reactor,1
+Turbine speed [rpm],1500
+Number of LP cylinders per turbine,3
+HP cylinder inlet steam pressure [MPa],6.629
+Output voltage [kV],27
+Primary means of condenser cooling,Sea (once-through)
+Number of main condensate pumps,3
+Number of FW pumps for full power operation,3
+Number of on-site safety related diesel generators,2
+
+Availability Factor_label,Availability Factor_CategoryGroup_label,Availability Factor_CategoryGroup_Value_Y,Planned Unavailability Factor_label,Planned Unavailability Factor_CategoryGroup_Value_Y,Forced Loss Rate_label,Forced Loss Rate_CategoryGroup_Value_Y,Unplanned Capability Loss Factor_label,Unplanned Capability Loss Factor_CategoryGroup_Value_Y,External Unavailability Factor_label,External Unavailability Factor_CategoryGroup_Value_Y,Load Factor_label,Load Factor_CategoryGroup_Value_Y
+Availability Factor,Jan,0.99308,Planned Unavailability Factor,0,Forced Loss Rate,0.00692,Unplanned Capability Loss Factor,0.00692,External Unavailability Factor,0,Load Factor,101.771
+Availability Factor,Feb,0.99281,Planned Unavailability Factor,0,Forced Loss Rate,0.00719,Unplanned Capability Loss Factor,0.00719,External Unavailability Factor,0,Load Factor,101.519
+Availability Factor,Mar,0.19228,Planned Unavailability Factor,0.8064,Forced Loss Rate,0.00682,Unplanned Capability Loss Factor,0.00132,External Unavailability Factor,0,Load Factor,19.592
+Availability Factor,Apr,0.19709,Planned Unavailability Factor,0.80291,Forced Loss Rate,0,Unplanned Capability Loss Factor,0,External Unavailability Factor,0,Load Factor,19.764
+Availability Factor,May,0.75635,Planned Unavailability Factor,0.242,Forced Loss Rate,0,Unplanned Capability Loss Factor,0,External Unavailability Factor,0.00165,Load Factor,75.635
+Availability Factor,Jun,0.79271,Planned Unavailability Factor,0.20457,Forced Loss Rate,0,Unplanned Capability Loss Factor,0,External Unavailability Factor,0.00272,Load Factor,79.271
+Availability Factor,Jul,0.9881,Planned Unavailability Factor,0,Forced Loss Rate,0,Unplanned Capability Loss Factor,0,External Unavailability Factor,0.0119,Load Factor,98.81
+Availability Factor,Aug,0.9827,Planned Unavailability Factor,0,Forced Loss Rate,0,Unplanned Capability Loss Factor,0,External Unavailability Factor,0.0173,Load Factor,98.27
+Availability Factor,Sep,0.98175,Planned Unavailability Factor,0.00352,Forced Loss Rate,0,Unplanned Capability Loss Factor,0,External Unavailability Factor,0.01474,Load Factor,98.175
+Availability Factor,Oct,0.99674,Planned Unavailability Factor,8E-05,Forced Loss Rate,0,Unplanned Capability Loss Factor,0,External Unavailability Factor,0.00318,Load Factor,99.674
+Availability Factor,Nov,0.9998,Planned Unavailability Factor,0.0002,Forced Loss Rate,0,Unplanned Capability Loss Factor,0,External Unavailability Factor,0,Load Factor,100.888
+Availability Factor,Dec,0.99957,Planned Unavailability Factor,0.00043,Forced Loss Rate,0,Unplanned Capability Loss Factor,0,External Unavailability Factor,0,Load Factor,101.275
+
+Year,Month,EnergyGWh,EAF_AvailabilityFactor,UCF_UnitCapabilityFactor,LF_LoadFactor,OF_OperatingFactor,FLR_ForcedLossRate,UCL_UnplannedCapabilityLossFactor,PUF_PlannedUnavailabilityFactor,XUF_ExternalUnavailabilityFactor,Annual,Avg_AvailabilityFactor,Avg_UnitCapabilityFactor,Avg_LoadFactor,Avg_OperatingFactor,Avg_ForcedLossRate,Avg_UnplannedCapabilityLossFactor,Avg_PlannedUnavailabilityFactor,Avg_ExternalUnavailabilityFactor
+2025,Jan,"1,012.34",99.31,99.31,101.77,100.00,0.69,0.69,0.00,0.00,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Feb,912.11,99.28,99.28,101.52,100.00,0.72,0.72,0.00,0.00,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Mar,194.89,19.23,19.23,19.59,19.49,0.68,0.13,80.64,0.00,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Apr,190.26,19.71,19.71,19.76,24.72,0.00,0.00,80.29,0.00,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,May,752.36,75.64,75.80,75.64,76.21,0.00,0.00,24.20,0.17,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Jun,763.09,79.27,79.54,79.27,83.06,0.00,0.00,20.46,0.27,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Jul,982.90,98.81,100.00,98.81,100.00,0.00,0.00,0.00,1.19,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Aug,977.52,98.27,100.00,98.27,100.00,0.00,0.00,0.00,1.73,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Sep,945.07,98.18,99.65,98.18,100.00,0.00,0.00,0.35,1.47,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Oct,991.49,99.67,99.99,99.67,100.00,0.00,0.00,0.01,0.32,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Nov,971.18,99.98,99.98,100.89,100.00,0.00,0.00,0.02,0.00,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+2025,Dec,"1,007.42",99.96,99.96,101.28,100.00,0.00,0.00,0.04,0.00,  9 700.63,82.27,82.70,82.89,83.62,0.17,0.13,17.17,0.43
+
+Energy_label,Energy_Chart_CategoryGroup_label,Energy_Chart_CategoryGroup_Value_Y
+Energy,2021,8926.088
+Energy,2022,8196.791
+Energy,2023,10488.133
+Energy,2024,11297.895
+Energy,2025,9700.628
+
+HistoricalYear,Energy,HoursOnline,NetElecCapacity,AvailFactor,UnitCapabilityFactor,LoadFactor,OperatingFactor,ForcedLossRate,CapabilityUnpLossFactor,UnavailPFactor,UnavailExtFactor
+2021,  8 926,  6 763,"1,417",71.87,72.13,71.91,77.20,13.38,17.78,10.09,0.26
+2022,  8 197,  6 269,"1,337",69.89,70.18,69.99,71.56,0.53,8.26,21.55,0.30
+2023,  10 488,  7 906,"1,337",88.87,89.66,89.55,90.25,0.06,0.05,10.29,0.79
+2024,  11 298,  8 479,"1,337",95.50,96.17,96.20,96.53,3.74,3.73,0.09,0.67
+2025,  9 701,  7 320,"1,337",82.22,82.66,82.83,83.56,0.15,0.13,17.22,0.43
+
+Avail Factor_label,Avail Factor_KeyFactor_CategoryGroup_label,Avail Factor_KeyFactor_CategoryGroup_Value_Y,Unavail PFactor_label,Unavail PFactor_KeyFactor_CategoryGroup_Value_Y,Unavail Unp Factor_label,Unavail Unp Factor_KeyFactor_CategoryGroup_Value_Y,Unavail Ext Factor_label,Unavail Ext Factor_KeyFactor_CategoryGroup_Value_Y
+Avail Factor,2020,0.36628,Unavail PFactor,0.62039,Unavail Unp Factor,0.01332,Unavail Ext Factor,0
+Avail Factor,2021,0.7187,Unavail PFactor,0.10091,Unavail Unp Factor,0.17778,Unavail Ext Factor,0.00262
+Avail Factor,2022,0.69889,Unavail PFactor,0.21552,Unavail Unp Factor,0.08264,Unavail Ext Factor,0.00295
+Avail Factor,2023,0.88869,Unavail PFactor,0.10286,Unavail Unp Factor,0.00051,Unavail Ext Factor,0.00794
+Avail Factor,2024,0.95501,Unavail PFactor,0.00092,Unavail Unp Factor,0.03734,Unavail Ext Factor,0.00673
+Avail Factor,2025,0.82223,Unavail PFactor,0.1722,Unavail Unp Factor,0.00125,Unavail Ext Factor,0.00432
+
+ID_Year,EAF_AvailFactor,PUF_UnavailPFactor,UUF_UnavailUnpFactor,XUF_UnavailExtFactor
+2020,36.63,62.04,1.33,0.00
+2021,71.87,10.09,17.78,0.26
+2022,69.89,21.55,8.26,0.30
+2023,88.87,10.29,0.05,0.79
+2024,95.50,0.09,3.73,0.67
+2025,82.22,17.22,0.13,0.43
+
+Loss Value_label,Loss Value_EneryLossChart_CategoryGroup_label,Loss Value_EneryLossChart_CategoryGroup_Value_Y
+Loss Value,Planned,2016.801
+Loss Value,Outage extension,0
+Loss Value,Unplanned forced,14.653
+Loss Value,External,50.65
+
+Loss Value_label,Loss Value_EnergyLossAllChart_CategoryGroup_label,Loss Value_EnergyLossAllChart_CategoryGroup_Value_Y
+Loss Value,Planned,9712.644
+Loss Value,Outage extension,1747.144
+Loss Value,Unplanned forced,1944.674
+Loss Value,External,289.783
+
+EnergyYear,Planned,OutageExtension,Unplannedforced,External
+2020,97.90%,0.00%,2.10%,0.00%
+2021,35.87%,23.58%,39.62%,0.93%
+2022,71.57%,26.20%,1.25%,0.98%
+2023,92.41%,0.00%,0.46%,7.13%
+2024,2.05%,0.00%,82.99%,14.96%
+2025,96.86%,0.00%,0.70%,2.43%
+
