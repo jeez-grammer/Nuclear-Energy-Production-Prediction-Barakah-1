@@ -32,9 +32,14 @@ I tested multiple architectures to determine the best fit for a high-variance, s
 *   **Attempt 1: Random Forest Regressor** ❌
     *   **Result:** $R^2$ Score: `-187.02` (Extreme Overfitting).
     *   **Diagnosis:** The model was too complex for 12 data points, attempting to "memorize" noise rather than identify the underlying operational pattern.
+
+<img width="844" height="453" alt="Screenshot 2026-08-03 at 1 38 46 PM" src="https://github.com/user-attachments/assets/15d38ded-db43-4e8d-9fc8-1341c6b19593" />
+
 *   **Attempt 2: Ridge Regression (L2 Regularization)** ✔️
     *   **Result:** $R^2$ Score: `0.99` | MAE: `18.49` GWh.
     *   **Diagnosis:** By applying L2 regularization, the model stabilized the coefficients and successfully captured the deterministic relationship between the Planned Unavailability Factor and energy output.
+
+<img width="861" height="452" alt="Screenshot 2026-08-03 at 1 40 13 PM" src="https://github.com/user-attachments/assets/fd9f9e5d-9172-470b-9a2d-4f7db7e1d707" />
 
 ---
 
